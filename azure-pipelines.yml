@@ -12,6 +12,6 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: "$(Agent.WorkFolder)/lemminx-maven/pom.xml"
-    goals: "clean verify"
+    mavenPomFile: 'lemminx-maven/pom.xml'
+    goals: 'clean verify'
 
